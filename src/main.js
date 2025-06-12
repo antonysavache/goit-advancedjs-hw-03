@@ -13,8 +13,8 @@ import {
 
 import './css/styles.css';
 
-const searchForm = document.querySelector('#search-form');
-const searchInput = document.querySelector('#search-input');
+const searchForm = document.querySelector('.form');
+const searchInput = document.querySelector('.search-input');
 const gallery = document.querySelector('.gallery');
 const loader = document.querySelector('.loader');
 

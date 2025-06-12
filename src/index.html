@@ -16,10 +16,9 @@
     <main>
       <section class="search-section">
         <div class="container">
-          <form id="search-form" class="search-form">
+          <form class="form">
             <input
               type="text"
-              id="search-input"
               name="searchQuery"
               autocomplete="off"
               placeholder="Search images..."
@@ -32,11 +31,11 @@
 
       <section class="gallery-section">
         <div class="container">
-          <div class="loader" style="display: none;">
+          <span class="loader" style="display: none;">
             <div class="loader-spinner"></div>
-          </div>
+          </span>
 
-          <div class="gallery"></div>
+          <ul class="gallery"></ul>
         </div>
       </section>
     </main>
